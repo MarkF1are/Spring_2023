@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин смартфонов</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Интернет-магазин смартфонов</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product">
+        <div class="product-images">
+            <img src="Image/smart1.jpg" alt="Smart 1" id="phoneImage1">
+            <div class="thumbnail" onclick="changeImage('Image/smart1.jpg', 'phoneImage1')">Изображение устройства</div>
+            <div class="thumbnail" onclick="changeImage('Image/smart1.1.jpg', 'phoneImage1')">Изображение комплектации</div>
+        </div>
+            <h2>Смартфон POCO F4 256 ГБ черный</h2>
+            <p>Еще никогда вам не доводилось наслаждаться просмотром </br> 
+		настолько детализированного и контрастного контента. </br>
+		Личным проводником в мир незабываемых эмоций станет </br> 
+		смартфон POCO F4 с объемом встроенной памяти 256 ГБ.</br>
+		AMOLED-дисплей с практически невидимыми глазом рамками вы </br>
+		доверите трансляцию любых роликов или кинолент в </br>	
+		максимальном разрешении 2400x1080 пикселей.</p>
+            <p class="price">37 799 ₽</p>
+            <button>Добавить в корзину</button>
+        </section>
+        <section class="product">
+        <div class="product-images">
+            <img src="Image/smart2.jpg" alt="Smart 2" id="phoneImage2">
+            <div class="thumbnail" onclick="changeImage('Image/smart2.jpg', 'phoneImage2')">Изображение устройства</div>
+            <div class="thumbnail" onclick="changeImage('Image/smart2.1.jpg', 'phoneImage2')">Изображение комплектации</div>
+        </div>
+            <h2>Смартфон POCO F5 256 ГБ белый</h2>
+            <p>Смартфон POCO F5 256 ГБ выполнен в корпусе белого цвета </br> 
+		с изысканным узором. Внутри устройства – мощный вычислительный </br> 
+		потенциал, который обеспечивается платформой с процессором Snapdragon 7+ Gen 2. </br> 
+		В дополнении 12 ГБ памяти ОЗУ он обеспечивает отзывчивость </br>
+		и производительность флагманского уровня. Система с испарительной </br>
+		камерой эффективно охлаждает компоненты.</p>
+            <p class="price">42 999 ₽</p>
+            <button>Добавить в корзину</button>
+        </section>
+        <!-- Добавьте другие товары здесь -->
+    </main>
+    <footer>
+        &copy; 2023 Интернет-магазин смартфонов бабаха точно не будет хехе
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
